@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Activities.MainActivity"
+    style="@style/AppTheme"
+    android:contextClickable="false"
+    android:focusable="true">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_button_armi"
+        android:id="@+id/button_armi"
+        android:layout_below="@+id/button_mostri"
+        android:layout_alignLeft="@+id/button_mostri"
+        android:layout_alignStart="@+id/button_mostri" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_button_abilita"
+        android:id="@+id/button_ability"
+        android:layout_alignTop="@+id/button_armature"
+        android:layout_alignLeft="@+id/button_talenti"
+        android:layout_alignStart="@+id/button_talenti"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_button_mostri"
+        android:id="@+id/button_mostri"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/button_ability"
+        android:layout_toStartOf="@+id/button_ability" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_button_talenti"
+        android:id="@+id/button_talenti"
+        android:layout_alignTop="@+id/button_mostri"
+        android:layout_toLeftOf="@+id/button_incantesimi"
+        android:layout_toStartOf="@+id/button_incantesimi" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_button_incantesimi"
+        android:id="@+id/button_incantesimi"
+        android:focusable="false"
+        android:layout_alignTop="@+id/button_talenti"
+        android:layout_alignRight="@+id/imageView2"
+        android:layout_alignEnd="@+id/imageView2" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_button_armature"
+        android:id="@+id/button_armature"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_below="@+id/button_incantesimi"
+        android:layout_alignLeft="@+id/button_incantesimi"
+        android:layout_alignStart="@+id/button_incantesimi"
+        android:layout_alignRight="@+id/button_incantesimi"
+        android:layout_alignEnd="@+id/button_incantesimi" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="4dp"
+        android:id="@+id/imageView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button_armi"
+        android:src="#ff0000"
+        android:clickable="false"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:backgroundTint="#ff0000"
+        android:layout_alignParentTop="false"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_alignParentBottom="false"
+        android:contentDescription="@string/image"
+        android:contextClickable="false" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:background="@drawable/d6d"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp" />
+
+
+</RelativeLayout>

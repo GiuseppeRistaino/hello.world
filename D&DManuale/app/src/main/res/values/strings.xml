@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Dungeons &amp; Dragons</string>
+    <string name="label_PaginaListaArmi">label_PaginaListaArmi</string>
+    <string name="label_PaginaListaAbility">label_PaginaListaAbility</string>
+    <string name="label_PaginaArma">label_PaginaArma</string>
+    <string name="label_PaginaAbility">label_PaginaAbility</string>
+
+    <string name="text_button_armi">Armi</string>
+    <string name="text_button_mostri">Mostri</string>
+    <string name="text_button_incantesimi">Incantesimi</string>
+    <string name="text_button_armature">Armature</string>
+    <string name="text_button_talenti">Talenti</string>
+    <string name="text_button_abilita">Abilità</string>
+    <string name="image">separatore</string>
+
+
+</resources>
